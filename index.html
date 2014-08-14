@@ -21,7 +21,7 @@
          width:100%;
          margin:0;
          cursor: pointer;
-
+         display: block;
        }
        canvas {
          display: block;
@@ -30,6 +30,7 @@
          top: 0;
          left: 0;
          position: fixed;
+         pointer-events: none;
        }
     </style>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -96,14 +97,6 @@
             });
           }
         });
-
-        // $("canvas.snow").let_it_snow({
-        //   windPower: 3,
-        //   speed: 1,
-        //   count: 250,
-        //   size: 0
-        // });
-
       });
     </script>
 </body>
